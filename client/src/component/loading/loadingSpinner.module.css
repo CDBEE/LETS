@@ -1,0 +1,48 @@
+.spinner {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    top: 50%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+  }
+  
+  .spinnerImg {
+    width: 100%;
+    height: 100%;
+    animation: rotateImage 1.2s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .spinner {
+      width: 16rem;
+      height: 16rem;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .spinner {
+      width: 12rem;
+      height: 12rem;
+    }
+  }

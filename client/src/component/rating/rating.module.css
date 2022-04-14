@@ -1,0 +1,140 @@
+.ratingIcon {
+    position: fixed;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  
+  .ratingIconImg {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .ratingIconImg:hover {
+    transform: scale(1.08);
+    transition: all 0.2s ease-in;
+  }
+  
+  .imgWrapper {
+    width: 7rem;
+    margin: 0 auto;
+  }
+  
+  .imgLogo {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+  }
+  
+  .ratings {
+    overflow-y: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 32px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exitWrapper {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+  
+  .content {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  footer {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    border: 3px solid #4482f7;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .submitButton {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    transition: transform 300ms ease-in;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .submitButton:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .ratingIcon {
+      display: none;
+    }
+  }

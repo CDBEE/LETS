@@ -1,0 +1,50 @@
+.LoginButton {
+  text-align: center;
+  margin: 0;
+  font-family: "goWunFont";
+  box-sizing: border-box;
+  min-height: 100%;
+}
+element.style {
+  overflow: hidden;
+}
+
+.popupWrapper {
+  position: fixed;
+  background-color: red;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.bodyBody img {
+  box-shadow: 1px 1px 6px grey;
+  border-radius: 20px;
+}
+.bodyBody > div {
+  margin: 2rem;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.bodyTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "goWunFont";
+}
+.bodyTitle > h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bodyBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

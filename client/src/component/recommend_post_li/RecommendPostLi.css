@@ -1,0 +1,17 @@
+.recommendPostLiWrapper{
+    display: flex;
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+
+.recommendPostLiIndex{
+    color: #4b9ef4;
+    margin-right: 0.25rem;
+}
+
+.recommendPostLiTitle{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}

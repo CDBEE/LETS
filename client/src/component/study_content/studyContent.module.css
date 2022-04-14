@@ -1,0 +1,185 @@
+.wrapper {
+    width: 48rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .buttonWrapper button {
+    font-size: 1rem;
+  }
+  
+  .modalComment {
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+  
+  .languageList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .languageItem {
+    list-style-type: none;
+    margin-right: 0.5rem;
+    background: #dce2f0;
+    border: 2px solid #dce2f0;
+    border-radius: 58px;
+    padding: 0.3rem 0.75rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .usedLanguageInfo {
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .usedLanguageWrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #dcdcdc;
+    margin-top: 2rem;
+  }
+  .postHeader {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .userName {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .userImg {
+    cursor: pointer;
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.25rem;
+    box-shadow: rgb(0 0 0 / 9%) 0px 0px 8px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.125s;
+  }
+  
+  .userImg:hover {
+    scale: 1.1;
+  }
+  
+  .userAndDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .postContentWrapper {
+    margin-top: 5rem;
+    font-size: 1.125rem;
+    word-break: keep-all;
+    overflow-wraps: break-word;
+    line-height: 1.7;
+    letter-spacing: -0.004em;
+  }
+  
+  .postContent {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .postComment {
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 4rem;
+    height: auto;
+    display: block;
+  }
+  
+  .postContent img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .postContent a {
+    color: #2883f3;
+  }
+  
+  .registeredDate {
+    font-size: 1.25rem;
+    line-height: 126.5%; /* or 19px */
+    margin-top: 1.5rem;
+    letter-spacing: -0.005em;
+    color: #8c8c8c;
+  }
+  
+  .title {
+    margin-top: 2.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 126.5%; /* or 48px */
+    letter-spacing: -0.005em;
+    color: #000000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 100%;
+    }
+    .title {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .title {
+      font-size: 1.5rem;
+    }
+    .usedLanguageWrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .usedLanguageInfo {
+      font-size: 1rem;
+    }
+    .userImg {
+      width: 2rem;
+      height: 2rem;
+    }
+    .userName {
+      font-size: 1rem;
+    }
+    .registeredDate {
+      font-size: 1rem;
+    }
+    .languageItem {
+      list-style-type:none;
+      margin-right: 0.25rem;
+      background: #dce2f0;
+      border: 2px solid #dce2f0;
+      border-radius: 58px;
+      padding: 0.15rem 0.6rem;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+  }
+  
